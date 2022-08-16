@@ -4,7 +4,7 @@
 void geraVetor(int v[], int n){
 	srand(time(NULL));
 	for(int i = 0; i < n; i++){
-		v[i] = rand()%21;
+		v[i] = rand()%51;
 	}
 }
 // ------------------------------------
