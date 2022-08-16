@@ -1,17 +1,5 @@
 #include <stdio.h>
-
-int menorValor(int vetor[], int n){
-	int menor = vetor[0];
-	
-	for(int i = 0; i < n; i++){
-		if(vetor[i] < menor){
-			menor = vetor[i];
-		}
-	}
-	
-	return menor;
-}
-
+#include "vetlib.h"
 
 void main(){
 	
@@ -30,9 +18,7 @@ void main(){
 	}
 	
 
-	printf("O menor valor dos elementos: %d\n\n", menorValor(vet, qtd));
-	for(int i = 0; i < qtd; i++){
-		printf("%d |", vet[i]);
-	}
+	printf("\nO menor valor dos elementos: %d\n\n", menorValor(vet, qtd));
+	printaVetor(vet, qtd);
 		
 }

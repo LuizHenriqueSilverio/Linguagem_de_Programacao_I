@@ -1,16 +1,5 @@
 #include <stdio.h>
-
-int maiorValor(int vetor[], int n){
-	int maior = 0;
-	
-	for(int i = 0; i < n; i++){
-		if(vetor[i] > maior){
-			maior = vetor[i];
-		}
-	}
-	
-	return maior;
-}
+#include "vetlib.h"
 
 
 void main(){
@@ -30,9 +19,7 @@ void main(){
 	}
 	
 
-	printf("O maior valor dos elementos: %d\n\n", maiorValor(vet, qtd));
-	for(int i = 0; i < qtd; i++){
-		printf("%d |", vet[i]);
-	}
+	printf("\nO maior valor dos elementos: %d\n\n", maiorValor(vet, qtd));
+	printaVetor(vet, qtd);
 		
 }
