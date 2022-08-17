@@ -77,3 +77,5 @@ int contaImpar(int v[], int n){
 	
 	return impar;
 }
+
+//-------------------------------------
