@@ -10,8 +10,11 @@ void geraVetor(int v[], int n){
 // ------------------------------------
 
 void leiaVetor(int v[], int n){
+	int x;
 	for(int i = 0; i < n; i++){
-		scanf("%d", &v[i]);
+		printf("Insira o valor da posicao [%d]: ", i);
+		scanf("%d", &x);
+		v[i] = x;
 	}
 }
 
