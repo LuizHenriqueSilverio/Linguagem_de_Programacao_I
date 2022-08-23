@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void geraVetor(int v[], int n){
+void geraVetor(int v[], int n, int m){
 	srand(time(NULL));
 	for(int i = 0; i < n; i++){
-		v[i] = rand()%51;
+		v[i] = rand()%m + 1;
 	}
 }
 // ------------------------------------
