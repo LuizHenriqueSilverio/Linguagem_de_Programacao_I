@@ -18,7 +18,7 @@ void main(){
 	
 	scanf("%d", &num);
 	int vet[num];
-	geraVetor(vet, num);
+	geraVetor(vet, num, 50);
 	
 	printf("\n\nAgora, advinhe um numero: ");
 	scanf("%d", &adv);
@@ -29,4 +29,5 @@ void main(){
 		printf("O numero %d nao foi sorteado!\n\n", adv);
 		printaVetor(vet, num);
 	}
+
 }

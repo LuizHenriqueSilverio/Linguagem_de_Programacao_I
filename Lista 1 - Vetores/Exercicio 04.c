@@ -9,7 +9,7 @@ int main(){
 	printf("Insira a quantidade de elementos: ");
 	scanf("%d", &qtd);
 	int vet[qtd];
-	geraVetor(vet, qtd);
+	geraVetor(vet, qtd, 20);
 	
 	printf("\nA quantidade de elementos impares no vetor: %d", contaImpar(vet, qtd));
 	

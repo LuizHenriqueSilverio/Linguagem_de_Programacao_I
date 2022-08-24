@@ -10,8 +10,8 @@ void main(){
 	scanf("%d", &num);
 	int vet1[num], vet2[num], vetres[num];
 	
-	geraVetor(vet1, num);
-	geraVetor(vet2, num);
+	geraVetor(vet1, num, 20);
+	geraVetor(vet2, num, 20);
 	
 	for(int i = 0; i < num; i++){
 		vetres[i] = vet1[i] * vet2[i];
