@@ -19,7 +19,7 @@ void main(){
 				face++;
 			}
 		}
-		printf("\nO elemento [%d] aparece %d vezes.\n", i, face);
+		printf("\nO lado [%d] aparece %d vez(es).\n", i, face);
 		face = 0;
 	}
 
