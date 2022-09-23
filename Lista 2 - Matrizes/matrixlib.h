@@ -65,3 +65,34 @@ int menorMatrix(int m[][100], int lin, int cols){
 	
 	return menor;
 }
+
+//------------------------------
+
+int maiorMatrix(int m[][100], int lin, int cols){
+	int maior = m[0][0];
+	
+	for(int i = 0; i < lin; i++){
+		for(int j = 0; j < cols; j++){
+			if(m[i][j] > maior){
+				maior = m[i][j];
+			}
+		}
+	}
+	
+	return maior;
+}
+
+//------------------------------
+
+int contaMatrix(int m[][100], int lin, int cols, int x){
+	int qtd = 0;
+	for(int i = 0; i < lin; i++){
+		for(int j = 0; j < cols; j++){
+			if(m[i][j] == x){
+				qtd++;
+			}
+		}
+	}
+	
+	return qtd;
+}
