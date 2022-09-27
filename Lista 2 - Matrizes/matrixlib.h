@@ -96,3 +96,13 @@ int contaMatrix(int m[][100], int lin, int cols, int x){
 	
 	return qtd;
 }
+
+//------------------------------
+
+void somaMatrix(int m1[][100], int m2[][100], int res[][100],int ord1, int ord2){
+	for(int i = 0; i < ord1; i++){
+		for(int j = 0; j < ord1; j++){
+			res[i][j] = m1[i][j] + m2[i][j];
+		}
+	}
+}
