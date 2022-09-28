@@ -8,8 +8,9 @@ void main(){
 	
 	printf("Insira a ordem das matrizes: ");
 	scanf("%d", &ordem);
-	geraMatrix(mat1, ordem, ordem);
-	geraMatrix(mat2, ordem, ordem);
+	geraMatrixFloat(mat1, ordem, ordem);
+	_sleep(500);
+	geraMatrixFloat(mat2, ordem, ordem);
 	
 	while(op != 0){
 		printf("\n\nEscolha uma opcao a seguir: \n");

@@ -35,6 +35,17 @@ void geraMatrix(int m[][100], int lin, int cols){
 
 //------------------------------
 
+void geraMatrixFloat(float m[][100], int lin, int cols){
+	srand(time(NULL));
+	for(int i = 0; i < lin; i++){
+		for(int j = 0; j < cols; j++){
+			m[i][j] = rand()%51;
+		}
+	}
+}
+
+//------------------------------
+
 void leiaMatrix(int m[][100], int lin, int cols){
 	for(int i = 0; i < lin; i++){
 		for(int j = 0; j < cols; j++){
