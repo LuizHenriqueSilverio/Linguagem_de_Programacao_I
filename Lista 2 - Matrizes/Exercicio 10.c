@@ -3,7 +3,7 @@
 
 void main(){
 	
-	int mat1[4][100], mat2[3][100], j = 2;
+	int mat1[4][100], mat2[3][100];
 	
 	leiaMatrix(mat1, 4, 3);
 	

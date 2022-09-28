@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 int treinaDragao(int v[]){
 	int tempo = 0;
@@ -22,6 +23,7 @@ int main(){
 	
 	dias = treinaDragao(atributos);
 	printf("\nDias necessarios para treinar o dragao: %d", dias);
+	getc();
 	
 	return 0;
 }
