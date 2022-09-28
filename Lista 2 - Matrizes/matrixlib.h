@@ -13,6 +13,17 @@ void printMatrix(int m[][100], int lin, int cols){
 
 //------------------------------
 
+void printMatrixFloat(float m[][100], int lin, int cols){
+	for(int i = 0; i < lin; i++){
+		for(int j = 0; j < cols; j++){
+			printf("%.2f |", m[i][j]);
+		}
+		printf("\n");
+	}
+}
+
+//------------------------------
+
 void geraMatrix(int m[][100], int lin, int cols){
 	srand(time(NULL));
 	for(int i = 0; i < lin; i++){
@@ -99,10 +110,30 @@ int contaMatrix(int m[][100], int lin, int cols, int x){
 
 //------------------------------
 
-void somaMatrix(int m1[][100], int m2[][100], int res[][100],int ord1, int ord2){
-	for(int i = 0; i < ord1; i++){
-		for(int j = 0; j < ord1; j++){
+void somaMatrix(int m1[][100], int m2[][100], int res[][100],int ord){
+	for(int i = 0; i < ord; i++){
+		for(int j = 0; j < ord; j++){
 			res[i][j] = m1[i][j] + m2[i][j];
+		}
+	}
+}
+
+//------------------------------
+
+void somaMatrixFloat(float m1[][100], float m2[][100], float res[][100],int ord){
+	for(int i = 0; i < ord; i++){
+		for(int j = 0; j < ord; j++){
+			res[i][j] = m1[i][j] + m2[i][j];
+		}
+	}
+}
+
+//------------------------------
+
+void subtraiMatrixFloat(float m1[][100], float m2[][100], float res[][100],int ord){
+	for(int i = 0; i < ord; i++){
+		for(int j = 0; j < ord; j++){
+			res[i][j] = m1[i][j] - m2[i][j];
 		}
 	}
 }

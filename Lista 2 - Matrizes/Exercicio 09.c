@@ -9,6 +9,7 @@ void main(){
 	scanf("%d%d", &ordem1, &ordem2);
 	
 	geraMatrix(mat1, ordem1, ordem1);
+	_sleep(1000);
 	printMatrix(mat1, ordem1, ordem1);
 	printf("\n\n");
 	geraMatrix(mat2, ordem2, ordem2);
@@ -19,7 +20,7 @@ void main(){
 	if(ordem1 != ordem2){
 		printf("As matrizes nao sao de mesma ordem; nao eh possivel somar.");
 	}else{
-		somaMatrix(mat1, mat2, matsum, ordem1, ordem2);
+		somaMatrix(mat1, mat2, matsum, ordem1);
 		printMatrix(matsum, ordem1, ordem1);
 	}
 	
