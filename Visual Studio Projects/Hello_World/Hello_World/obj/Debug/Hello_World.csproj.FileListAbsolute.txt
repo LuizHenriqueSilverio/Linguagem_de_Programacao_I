@@ -1,0 +1,10 @@
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\bin\Debug\Hello_World.exe.config
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\bin\Debug\Hello_World.exe
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\bin\Debug\Hello_World.pdb
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.csprojAssemblyReference.cache
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.janela.resources
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.Properties.Resources.resources
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.csproj.GenerateResource.cache
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.csproj.CoreCompileInputs.cache
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.exe
+C:\Users\02239263610\Desktop\Linguagem_de_Programacao_I\Visual Studio Projects\Hello_World\Hello_World\obj\Debug\Hello_World.pdb
