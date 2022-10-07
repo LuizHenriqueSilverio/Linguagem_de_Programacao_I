@@ -37,7 +37,13 @@ namespace Hello_World
             string nome;
             int idade;
             nome = txtnome.Text;
-            idade = Convert.ToInt32(txtidade.Text);
+            try {
+                idade = Convert.ToInt32(txtidade.Text);
+            }
+            catch (System.FormatException) { 
+                idade = 0;
+                MessageBox.Show("Por favor insira a idade em números!");
+            }
             MessageBox.Show("Olá, " + nome + "! Sua idade em dias: " + (idade * 365));
         }
 
