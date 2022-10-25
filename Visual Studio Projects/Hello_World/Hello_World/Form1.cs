@@ -39,12 +39,12 @@ namespace Hello_World
             nome = txtnome.Text;
             try {
                 idade = Convert.ToInt32(txtidade.Text);
+                MessageBox.Show("Olá, " + nome + "! Sua idade em dias: " + (idade * 365));
             }
             catch (System.FormatException) { 
                 idade = 0;
                 MessageBox.Show("Por favor insira a idade em números!");
             }
-            MessageBox.Show("Olá, " + nome + "! Sua idade em dias: " + (idade * 365));
         }
 
         private void Label2_Click_1(object sender, EventArgs e)
